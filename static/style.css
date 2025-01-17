@@ -1,0 +1,199 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+    padding: 20px 0;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 100px;
+    margin-right: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f4f4f9;
+}
+
+.hero {
+    background: #34495e;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about, .posts, .contact {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.about h2, .posts h2, .contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.posts article {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.posts article h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.posts article p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.posts .button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #4ca1af;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.posts .button:hover {
+    background: #2c3e50;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact form button {
+    background: #4ca1af;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact form button:hover {
+    background: #2c3e50;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Blogs Section */
+.blogs {
+    padding: 20px 0;
+}
+
+.blogs h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-list {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.blog-list li h3 {
+    margin: 0 0 10px;
+}
+
+.blog-list li h3 a {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+.blog-list li h3 a:hover {
+    text-decoration: underline;
+}
+
+.blog-list li p {
+    margin: 0;
+}
+
