@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
+    <link rel="stylesheet" href="/static/contact.css">
 </head>
 <body>
-    <h1>Kontakt</h1>
-    <form action="/contact" method="POST">
-        <input type="text" name="name" placeholder="Ihr Name" required><br>
-        <input type="email" name="email" placeholder="Ihre E-Mail" required><br>
-        <textarea name="message" placeholder="Ihre Nachricht" required></textarea><br>
-        <button type="submit">Senden</button>
-    </form>
+    <header>
+        <h1>Kontakt</h1>
+    </header>
+
+    <div class="container">
+        <section class="contact">
+            <h2>Schreiben Sie uns</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Ihr Name" required>
+                <input type="email" name="email" placeholder="Ihre E-Mail" required>
+                <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
+                <button type="submit">Senden</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Kontaktseite. Alle Rechte vorbehalten.</p>
+    </footer>
 </body>
 </html>
