@@ -30,15 +30,25 @@ def smallbusiness():  # put application's code here
 def passwortrichtlinien():  # put application's code here
     return render_template('passwortrichtlinien.html')
 
+@app.route('/firewall')
+def firewall():  # put application's code here
+    return render_template('firewall.html')
+
 
 @app.route('/blogs')
 def blogs():  # put application's code here
     return render_template('posts.html')
 
+@app.route('/about')
+def aboutus():  # put application's code here
+    return render_template('aboutus.html')
 
-@app.route('/snake')
-def snake():  # put application's code here
-    return render_template('snake.html')
+@app.route('/vpn')
+def vpn():  # put application's code here
+    return render_template('vpn.html')
+
+
+
 
 
 # Route für Kontaktformular

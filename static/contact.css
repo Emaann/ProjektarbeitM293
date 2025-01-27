@@ -92,3 +92,10 @@ footer p {
     margin: 0;
     font-size: 0.9em;
 }
+
+header .logo img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
